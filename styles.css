@@ -1,0 +1,48 @@
+body {
+    background-color: grey;
+    display: block;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    justify-content:space-around;
+    background-color: black;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;    
+}
+
+.info {
+    
+    border: 2px solid;
+    border-radius: 10px;
+    
+}
+
+#projeto {
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    align-items: center;  
+    border: 2px solid;
+    border-radius: 10px; 
+}
+
+#projeto img {
+    width: 50%;
+    height: auto;
+}
+
+#contato {
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
